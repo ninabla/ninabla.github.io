@@ -1,0 +1,37 @@
+html {
+    font-family: 'Fjalla One', sans-serif;font-family: 'Source Sans Pro', sans-serif;
+    background-color: dimgray;
+}
+
+body {
+    margin: 0 auto;
+    max-width: 60em;
+    padding: 24px;
+    color: #2b3a42;
+    background-color: white;
+}
+
+.hero {
+    float: left;
+    padding: 0 10px 0 0;
+    margin-top: 10px;
+}
+
+.listElement {
+    padding: 12px;
+    border-radius: 0.5em;
+    border: 1px solid;
+    border-color: #ffff00;
+    background-color: #f3f781;
+}
+
+.grid3 {
+    display: grid;
+	grid-template-columns: repeat(3, 1fr);
+
+}
+
+aside {
+    margin-right: 12px;
+}
+
